@@ -1,0 +1,7 @@
+Why use JSX?
+
+JSX lets us write UI markup and JavaScript logic together in a single file. It makes components easier to read, maintain, and understand because everything related to the UI part lives in one place.
+
+Why use Components?
+
+Components break the UI into small, reusable, and isolated pieces. Each component contains its own HTML, logic, and styling, making the application modular and easy to manage.

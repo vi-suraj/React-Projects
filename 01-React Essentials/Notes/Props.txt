@@ -1,0 +1,19 @@
+What is props
+
+props is an object which every react componet has it in the component.
+
+when you pass a props like title = {"Components"} they make a object strcutre like key and value pare which value you can extract in your component using props.title
+
+
+
+every component recevie a props even if its empty props they always has this children props
+
+export default function TabButton({ children, isSelected ,...props}) {
+  return (
+    <li>
+      <button className={isSelected ? "active" : null} {...props}>
+        {children}
+      </button>
+    </li>
+  );
+}

@@ -1,0 +1,13 @@
+useState is a React Hook that lets you store and update values in a component.
+
+It works like this:
+
+You give it an initial value.
+
+It returns an array with two things:
+
+The current value
+
+A function to change that value
+
+When you use the function to change the value, React will re-render the component with the updated value.
